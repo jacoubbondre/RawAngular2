@@ -6,21 +6,13 @@ import {GoogleApi} from './services/googleapi.service';
 import {Component} from 'angular2/core';
 
 //import {VideoPlayer} from './landing.video-player';
-//import {AppMasthead} from './landing.masthead';
-//import {ProductMenu} from './landing.prodMenu';
-//import {AppFooter} from './coffee.footer';
-//import {WhatIntro} from './what.intro';
-//import {IconRow} from './what.icon.row';
-//import {RoastRow} from './what.roast.row';
-//import {BrewMethod} from './what.brew.method';
-//import {VideoPlayer} from './landing.videoPlayer';
-//import {GrindRow} from './what.grind';
-//import {VideoPlayerSide} from './landing.videoPlayer-side';
-
 
 @Component({
 	selector: 'main-app',
-    template: '<!-- Put your HTML HERE -->',
+    template: `
+	<!-- Put your HTML HERE -->
+	<h1>Eat it biatch!</h1>
+	`,
 	directives: []
 })
 class AppComponent {

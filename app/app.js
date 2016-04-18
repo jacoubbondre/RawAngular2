@@ -31,23 +31,13 @@ System.register(['angular2/platform/browser', 'angular2/http', './services/logge
             }],
         execute: function() {
             //import {VideoPlayer} from './landing.video-player';
-            //import {AppMasthead} from './landing.masthead';
-            //import {ProductMenu} from './landing.prodMenu';
-            //import {AppFooter} from './coffee.footer';
-            //import {WhatIntro} from './what.intro';
-            //import {IconRow} from './what.icon.row';
-            //import {RoastRow} from './what.roast.row';
-            //import {BrewMethod} from './what.brew.method';
-            //import {VideoPlayer} from './landing.videoPlayer';
-            //import {GrindRow} from './what.grind';
-            //import {VideoPlayerSide} from './landing.videoPlayer-side';
             AppComponent = (function () {
                 function AppComponent() {
                 }
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'main-app',
-                        templateUrl: 'app/views/app.view.html',
+                        template: "\n\t<!-- Put your HTML HERE -->\n\t<h1>Eat it biatch!</h1>\n\t",
                         directives: []
                     }), 
                     __metadata('design:paramtypes', [])
