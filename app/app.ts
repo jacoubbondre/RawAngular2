@@ -20,7 +20,7 @@ import {Component} from 'angular2/core';
 
 @Component({
 	selector: 'main-app',
-    templateUrl: 'app/views/app.view.html',
+    template: '<!-- Put your HTML HERE -->',
 	directives: []
 })
 class AppComponent {
